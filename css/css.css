@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/* Header navigation css */
+
+body {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-top: 120px;
+  font-family: Adelle-Regular, Impact;
+}
+header {
+  top: 0;
+  width: 100%;
+  z-index: 101;
+  position: fixed;
+  background-color: #fff;
+  padding: 20px 0;
+  text-shadow: rgba(255, 255, 255, 0.75) 0 1px 0;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+header .container {
+  position: relative;
+}
+.logo {
+  float: left;
+  margin: 7px 0 5px 0;
+  display: inline-block;
+}
+.logo img {
+  height: 40px;
+  width: auto;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  float: right;
+  overflow: hidden;
+  list-style: none;
+  list-style-image: none;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+.nav li {
+  float: left;
+  margin: 0;
+}
+.nav li a {
+  color: #000;
+  font-size: 14px;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: inline-block;
+  border-top: 5px solid #fff;
+  padding: 0.5rem .75rem 0.6rem .75rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.nav li a:hover {
+  text-shadow: none;
+  color: #336699;
+  background-color: transparent;
+}
+.nav li.active a, .nav li.active a:hover {
+  text-shadow: none;
+  color: #336699;
+}
+.nav.in {
+  float: none;
+  height: auto;
+  display: block;
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #eee;
+  margin: 0 -20px 0 -20px;
+  border-bottom: 2px solid #fff;
+}
+.nav.in li {
+  float: none;
+}
+.nav.in li a {
+  border: none;
+  display: block;
+  padding: 5px 15px;
+  padding: .5rem .75rem;
+}
+.nav.in li a:hover, .nav.in li a:focus {
+  color: #fff;
+  border: none;
+  text-shadow: none;
+  background-color: #6699cc;
+}
+.nav.in li.active a, .nav.in li.active a:hover {
+  color: #fff;
+  border: none;
+  text-shadow: none;
+  background-color: #369;
+}
+.navbar-toggle {
+  top: 8px;
+  right: 10px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  position: absolute;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+  width: 20px;
+  height: 2px;
+  display: block;
+  border-radius: 1px;
+  background-color: #ccc;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+.navbar-toggle:hover, .navbar-toggle:focus {
+  border: 1px solid #369;
+  background-color: #eee;
+}
+.navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar {
+  background-color: #369;
+}
+
+/* Header navigation css */
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #428bca;
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right:  5px solid transparent;
+  border-bottom: 5px solid;
+  border-left:   5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  margin: 0 0 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #d2e8fa;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+/* Date - Left */
+
+.date p {
+  margin: 0;
+  line-height:1;
+}
+.day {
+  font-size: 36px;
+  text-align: center;
+}
+.month {
+  font-size: 20px;
+  text-align: center;
+}
+.year {
+  font-size: 24px;
+  text-align: center;
+  
+}
+.date hr {
+  border-color: #000;
+  width:82%;
+  margin: 6px;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding-top: 0px;
+}
