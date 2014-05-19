@@ -3,10 +3,11 @@
 
 body {
   color: #333;
-  font-size: 16px;
+  font-size: 1.35em;
   line-height: 1.8;
-  margin-top: 120px;
+  margin-top: 10em;
   font-family: Adelle-Regular, Impact;
+  
 }
 header {
   top: 0;
@@ -192,10 +193,15 @@ header .container {
  * Main column and sidebar layout
  */
 
+
+/*Blog Main-body*/
+
 .blog-main {
-  font-size: 18px;
+  font-size: 1.5em;
   line-height: 1.5;
 }
+
+/*Blog Main*/
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
@@ -245,4 +251,98 @@ img {
   height: auto;
   max-width: 100%;
   padding-top: 0px;
+}
+
+.comments {
+  padding-left:15px;
+}
+
+.facebook {
+  padding-left:5px;
+}
+.googleplus {
+  padding-left:6px;
+}
+.twitter {
+  padding-left:4px;
+}
+
+.subscribeblog{
+  padding-left: 35px;
+  padding-top: 20px;
+  background-color: #d2e8fa;
+  border-radius: 2px; 
+  font-size: .7em;
+  line-height: 0;
+  
+}
+.subscribe-inset p:last-child,
+.subscribe-inset ul:last-child,
+.subscribe-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+/*Text Area*/
+
+.form-control {
+margin-top:10px;  
+display: block;
+width: 75%;
+height: 50px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 2px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+body {padding:20px;}
+.bs-float-label {
+    position:relative;
+    padding:1px;
+}
+/*Button*/
+
+.btn-custom {
+  letter-spacing:1px;
+  color:rgba(254,252,252,1.00);
+  font-size:14px;
+  background-color: #2d6a9c;
+  border-color: #2d6a9c;
+  border-radius: 2px;
+  height: 50px;
+  width: 20%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  color:rgba(254,252,252,1.00);
+  background-color: #275d88;
+  border-color: #224f74;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  color:rgba(254,252,252,1.00);
+  background-color: #2d6a9c;
+  border-color: #2d6a9c;
 }
