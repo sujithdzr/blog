@@ -281,17 +281,20 @@ img {
 /*Post*/
 .blog-post-post{
   padding-top: 15px;
+  font-weight:100px;
 }
 /*Post*/
 
 .subscribeblog{
+  margin-top: 35px;
   padding-left: 35px;
   padding-top: 20px;
   padding-bottom: 30px;
   background-color: #d2e8fa;
   border-radius: 2px; 
   font-size: .7em;
-  line-height: 0;
+  line-height: 1;
+
   
 }
 .subscribe-inset p:last-child,
@@ -362,3 +365,21 @@ fieldset[disabled] .btn-custom.active {
   background-color: #2d6a9c;
   border-color: #2d6a9c;
 }
+
+/*Author*/
+.author-image{
+}
+.author{
+display:inline-block;
+margin-left:20px;
+}
+.designation{
+  display:inline-block;
+  font-size:0.750em;
+}
+.aboutme{
+  display:inline-block;
+  margin-left:85px;
+  font-size:0.875em;
+}
+
