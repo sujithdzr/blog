@@ -50,11 +50,11 @@ header .container {
 }
 .nav li a {
   color: #000;
-  font-size: 14px;
-  padding: 8px 12px;
+  font-size: 1.000em;
+  padding: 0.500em 0.750em;
   text-decoration: none;
   display: inline-block;
-  border-top: 5px solid #fff;
+  border-top: 0.417em solid #fff;
   padding: 0.5rem .75rem 0.6rem .75rem;
   font-family: 'Open Sans', sans-serif;
 }
@@ -72,10 +72,10 @@ header .container {
   height: auto;
   display: block;
   text-align: left;
-  padding: 10px 20px;
+  padding: 0.833em 1.667em;
   background-color: #eee;
-  margin: 0 -20px 0 -20px;
-  border-bottom: 2px solid #fff;
+  margin: 0 -1.667em 0 -1.667em;
+  border-bottom: 0.167em solid #fff;
 }
 .nav.in li {
   float: none;
@@ -83,7 +83,6 @@ header .container {
 .nav.in li a {
   border: none;
   display: block;
-  padding: 5px 15px;
   padding: .5rem .75rem;
 }
 .nav.in li a:hover, .nav.in li a:focus {
@@ -281,7 +280,6 @@ img {
 /*Post*/
 .blog-post-post{
   padding-top: 15px;
-  font-weight:100px;
 }
 /*Post*/
 
@@ -329,6 +327,7 @@ body {padding:20px;}
     position:relative;
     padding:1px;
 }
+
 /*Button*/
 
 .btn-custom {
@@ -370,16 +369,86 @@ fieldset[disabled] .btn-custom.active {
 .author-image{
 }
 .author{
-display:inline-block;
-margin-left:20px;
+  display: inline;
+  margin-left:20px;
 }
 .designation{
-  display:inline-block;
+  display: inline;
   font-size:0.750em;
 }
 .aboutme{
-  display:inline-block;
   margin-left:85px;
   font-size:0.875em;
 }
 
+/*leave-comment*/
+
+.leave-comment{
+  display: -webkit-box;
+}
+
+.tales{
+  margin-left: 30px;
+}
+
+/*comment-field*/
+
+.comment_div {
+  width: 88%;
+  margin-left: 26px;
+  height: 60px;  
+  display: inline-block;  
+  background:#f6f5f5; 
+  padding: 17px;
+  font-size: 16px; 
+  color:#bab9b9;
+}
+
+.pointer{ 
+display: inline;
+border:solid 15px transparent;
+border-right-color:#f6f5f5;
+position:absolute;
+margin:10px 0 0 0px;
+z-index:999;
+}
+
+/*Button*/
+
+.btn-submit {
+  letter-spacing:1px;
+  color:rgba(254,252,252,1.00);
+  font-size:14px;
+  color:#2d6a9c;
+  background-color: #FFFFFF;
+  border-color: #2d6a9c;
+  border-radius: 4px;
+  height: 40px;
+  width: 15%;
+  margin-left: 638px;
+  margin-top: 20px;
+}
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active,
+.btn-submit.active {
+  color:rgba(254,252,252,1.00);
+  background-color: #275d88;
+  border-color: #224f74;
+}
+.btn-submit.disabled:hover,
+.btn-submit.disabled:focus,
+.btn-submit.disabled:active,
+.btn-submit.disabled.active,
+.btn-submit[disabled]:hover,
+.btn-submit[disabled]:focus,
+.btn-submit[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-submit:hover,
+fieldset[disabled] .btn-submit:focus,
+fieldset[disabled] .btn-submit:active,
+fieldset[disabled] .btn-submit.active {
+  color:rgba(254,252,252,1.00);
+  background-color: #2d6a9c;
+  border-color: #2d6a9c;
+}
